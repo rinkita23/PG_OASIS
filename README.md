@@ -43,43 +43,33 @@ This project demonstrates the implementation of a full-stack web application usi
 * Git & GitHub
 
 ---
-
 ## Project Structure
 
 ```
-## Project Structure
-
-## Project Structure
-
-```
-PG_OASIS
+PG_OASIS/
 │
-├── assets/                # CSS, JavaScript, images, and frontend resources
-├── includes/              # Database connection and reusable PHP files
+├── assets/                # CSS, JavaScript, images, and other frontend resources
+├── includes/              # Database connection and reusable PHP components
 ├── uploads/               # Uploaded PG images
 │
 ├── index.php              # Landing page
-├── home.php               # User dashboard
-├── login.php              # Login page
-├── register.php           # User registration
+├── home.php               # Main dashboard after login
+├── login.php              # User login page
+├── register.php           # User registration page
 ├── logout.php             # Logout functionality
 │
 ├── add_pg.php             # Add new PG listing
-├── pg_listings.php        # Display PG listings
+├── pg_listings.php        # Displays available PG listings
 ├── book_pg.php            # PG booking logic
-├── booking.php            # Booking page
+├── booking.php            # Booking page for users
 │
-├── search.php             # Search interface
-├── search_action.php      # Search processing
+├── search.php             # PG search interface
+├── search_action.php      # Handles search queries
 │
-├── feedback.php           # User feedback
+├── feedback.php           # User feedback submission
 │
-└── IT_Cities_Property_Data_updated.csv
+└── IT_Cities_Property_Data_updated.csv   # Dataset used for PG/property information
 ```
-
-```
-
----
 
 ## Installation and Setup
 
